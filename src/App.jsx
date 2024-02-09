@@ -19,7 +19,7 @@ const [data, setData] = useState([...items])
        <Navbar/>
  
         <Routes>
-            <Route path='/'element={<><Owlcarousel/><Products items={data}/></>}/>
+            <Route path=''element={<><Owlcarousel/><Products items={data}/></>}/>
             <Route path='/product/:id'element={<ProductDetail/>}/>
             <Route path='/search/term:'element={<SearchItem/>}/>
             <Route path='/cart'element={<Cart/>}/>
